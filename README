@@ -1,0 +1,6 @@
+This is a small gaelyk project to handle a barcamp registration
+Barcamp Ticket -> Barket 
+
+How to build and run the application :
+mvn package gae:run
+-> wait for it... yes it's on your localhost:8080 !
