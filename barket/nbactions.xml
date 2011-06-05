@@ -8,4 +8,12 @@
                 <goal>gae:run</goal>
             </goals>
         </action>
+        <action>
+            <actionName>CUSTOM-Deploy</actionName>
+            <displayName>Deploy</displayName>
+            <goals>
+                <goal>package</goal>
+                <goal>gae:deploy</goal>
+            </goals>
+        </action>
     </actions>
