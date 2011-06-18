@@ -7,7 +7,7 @@ html.html()
     body()
     {
         h1 'Inscrivez-vous au plus hype des barcamps de Lyon!'
-        form(method : 'GET' , action : 'LoginAction.groovy')
+        form(method : 'GET' , action : 'addAttendes.groovy')
         {
             tr()
             {
