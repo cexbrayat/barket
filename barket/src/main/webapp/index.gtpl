@@ -12,7 +12,7 @@
 </p>
 
 <p>
-    Click <a href="register.groovy?name=Agnes">Register</a> Agnès.
+    Click <a href="register.groovy?name=Agnes">Register</a> Agnes.
 </p>
 
 <% include '/WEB-INF/includes/footer.gtpl' %>
