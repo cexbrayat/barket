@@ -4,7 +4,7 @@ import static com.google.appengine.api.datastore.FetchOptions.Builder.*
 
 log.info "Retrieving themes from DB"
 
-PreparedQuery preparedQuery = datastore.prepare(new Query("themes"))
+PreparedQuery preparedQuery = datastore.prepare(new Query("theme"))
 def themes = preparedQuery.asIterable()
 
 log.info "Forwarding to view of themes"
