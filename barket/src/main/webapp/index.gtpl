@@ -15,5 +15,9 @@
     Click <a href="register.groovy?name=Agnes">Register</a> Agnes.
 </p>
 
+<p>
+    Liste des <a href="themes">thmes</a>.
+</p>
+
 <% include '/WEB-INF/includes/footer.gtpl' %>
 
