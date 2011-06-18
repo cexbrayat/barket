@@ -6,7 +6,7 @@ Entity attendee = new Entity("attendee")
 
 attendee << params
 
-log.info "Saving new attende" + attendee
+log.info "Saving new attendee" + attendee
 
 attendee.save()
 
