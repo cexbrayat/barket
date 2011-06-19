@@ -3,8 +3,14 @@
 get "/upload",  forward: "/upload.gtpl"
 get "/success", forward: "/success.gtpl"
 get "/failure", forward: "/failure.gtpl"
+get "/home",  forward: "/index.gtpl"
 
 get "/favicon.ico", redirect: "/images/gaelyk-small-favicon.png"
+
+// Subscription Form
+get  "/subscribe", forward: "/subscribe.gtpl"
+// POST REST action for adding new Attendee
+post "/addAttendee", forward: "/addAttendee.groovy"
 
 // List of existing themes
 get  "/themes", forward: "/themes.groovy"

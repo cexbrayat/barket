@@ -12,6 +12,6 @@
 
     </ul>
 
-    <a href="/newtheme">Ajouter un nouveau thème</a>
+    <a href="/newtheme">Ajouter un nouveau th√®me</a>
 
 <% include '/WEB-INF/includes/footer.gtpl' %>

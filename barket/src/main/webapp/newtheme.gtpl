@@ -1,10 +1,10 @@
-<html>
-    <body>
-        <h1>Saisir un nouveau thème</h1>
+<% include '/WEB-INF/includes/header.gtpl' %>
+
+        <h1>Saisir un nouveau th√®me</h1>
         <form action="/theme" method="post">
             <label for="title">Titre</label>
             <input type="input" name="title" />
             <input type="submit" value="Submit">
         </form>
-    </body>
-</html>
+
+<% include '/WEB-INF/includes/footer.gtpl' %>
